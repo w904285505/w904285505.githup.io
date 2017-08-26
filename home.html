@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title><link rel="stylesheet" type='text/css' href='home.css'>
+
+    <style type="text/css">
+
+
+        #banner{
+            width:1200px;
+            height:925px;
+            overflow:hidden;
+        }
+        #top_txt{
+            width:1200px;
+            height:380px;
+            background-color:white;
+
+        }
+        #gridwrap{
+            width:1200px;
+            height:820px;
+        }
+        #gridwrap div{
+            position:relative;
+        }
+        body{
+            background-image:url(images/bg-pattern.gif);
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-position:0px -700px;
+
+
+        }
+        #bottom_txt{
+            width:1200px;
+            height:350px;
+            background-image:url("images/bridge.jpg");
+            opacity:0.8;
+        }
+        #bottom_txt:hover{
+            opacity:1;
+
+        }
+        #footer{
+            width:1000px;
+            height:300px;
+            background:black;
+            color:white;
+        }
+        #main{
+
+            width:1200px;
+            margin:0 auto;
+border:1px solid red;
+
+        }
+        #tp{
+            width:1200px;
+            height:190px;
+            padding-top:80px;
+
+
+        }
+        #inner1{
+            width:483px;
+            height:289.25px;
+            left:0;top:0;
+            transition:all 0.5s;
+
+        }
+        #t1{
+            width:483px;
+            height:289.25px;
+            overflow:hidden;
+        }
+
+        #inner1:hover{
+
+            transform:scale(1.2,1.2);
+        }
+        #inner2{
+            width:241.5px;
+            height:241.5px;
+            transition:all 0.5s;
+
+
+        }
+        #t2{
+            width:241.5px;
+            height:241.5px;margin-left:483px;margin-top:-289.5px;
+            overflow:hidden;
+        }
+        #inner2:hover{
+            transform:scale(1.2,1.2);
+        }
+        #inner3{
+            width:241.5px;
+            height:289.25px;
+
+            transition:all 0.5s;
+        }
+        #t3{
+            width:241.5px;
+            height:289.25px;
+            overflow:hidden;margin-left:724.5px;margin-top:-241.5px;
+        }
+        #inner3:hover{
+            transform:scale(1.2,1.2);
+        }
+        #inner4{
+            background-color:#7c47ff;
+            width:241.5px;
+            height:483px;
+            margin-left:966px;margin-top:-289px;
+            color:white;
+
+        }
+
+
+        #inner5{
+            width:241.5px;
+            height:289.25px;
+
+            transition:all 0.5s;
+        }
+        #t5{
+            width:241.5px;
+            height:289.25px;margin-left:966px;margin-top:0px;
+            overflow:hidden;
+        }
+        #inner5:hover{
+            transform:scale(1.2,1.2);
+        }
+        #inner6{
+
+            width:241.5px;
+            height:289.25px;
+
+            transition:all 0.5s;
+        }
+        #t6{
+            width:241.5px;
+            height:289.25px;margin-left:724.5px;margin-top:-484px;
+            overflow:hidden;
+        }
+        #inner6:hover{
+            transform:scale(1.2,1.2);
+        }
+        #inner7{
+
+            width:241.5px;
+            height:289.25px;
+
+            transition:all 0.5s;
+        }
+        #t7{
+            width:241.5px;
+            height:289.25px; margin-left:483px;margin-top:-339.5px;
+            overflow:hidden;
+        }
+        #inner7:hover{
+            transform:scale(1.2,1.2);
+        }
+        #inner8{
+            background-color:#7c47ff;
+            width:241.5px;
+            height:241.5px;
+            margin-left:724.5px;margin-top:50px;
+            color:white;
+        }
+        #inner9{
+            width:241.5px;
+            height:289.25px;
+
+            transition:all 0.5s;
+        }
+        #t9{
+            width:241.5px;
+            height:289.25px;margin-left:483px;margin-top:-291.5px;
+            overflow:hidden;
+        }
+        #inner9:hover{
+            transform:scale(1.2,1.2);
+        }
+        #inner10{
+            background-color: #fbfbff;
+            width:241.5px;
+            height:400px;
+            margin-top:-470px;
+            margin-left:120px;
+            box-shadow:50px 50px 50px #5e5e5d;
+
+
+        }
+        #inner4 div{
+            padding-left:25px;
+        }
+        #inner8 div{
+            padding-left:25px;
+        }
+        #inner10 div{
+            padding-left:25px;
+        }
+#txt{
+
+color:white;
+
+}
+        #time{
+            position:relative;
+            top:200px;
+            left:150px;
+        }
+        #walk{
+            position:relative;
+            top:55px;
+            left:420px;
+        }
+        #talk{
+            position:relative;
+            top:-88px;
+            left:650px;
+            text-decoration: none;
+        }
+a{
+    color:white;
+}
+a:link{
+    text-decoration: none;
+}
+        a:hover {color: #02fff5
+        }
+    #animal{
+        width:3600px;
+        height:925px;
+animation:move 5s;
+    }
+    .yc{
+        width:0px;
+        height:18px;
+        position:relative;
+        margin-top:-28px;
+        margin-left:15px;
+        border:1.2px solid white;transition:all 0.3s;
+    }
+        .yc2{
+            width:18px;
+            height:0px;
+            position:relative;
+            margin-top:-11px;
+            margin-left:6px;
+            border:1.2px solid white;transition:all 0.3s;
+        }
+    #t1:hover .yc{
+
+        transform:rotate(90deg)
+    }
+        #t1:hover .yc2{
+
+            transform:rotate(180deg)
+        }
+.tx1{
+    height:50px;
+    position:absolute;
+    margin-top:20px;
+background:black;
+    transition:all 0.3s;
+    opacity:0.6;
+
+}
+    #t1:hover .tx1{
+        margin-top:-20px;
+    }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div class="header"></div>
+<div id="banner"><div id="animal"><img src="images/banner01.jpg" width="1200px" height="925px" left=50% /><img src="images/banner02.jpg" width="1200px" height="925px" left=50% /><img src="images/banner03.jpg" width="1200px" height="925px" left=50% /></div></div>
+<div id="top_txt">
+    <center><div id="tp">
+    <img src="images/squiggle.gif"/>
+
+    <p><h1>IMAGINATION TO APPLICATION</h1></p>
+        <text>From empowering challenger brands to think big to helping global brands feel closer to home,<br> we leverage technology to bring people closer to the products, content, and<br> experiences they love.</text>
+    </div></center>
+</div>
+<div id="gridwrap">
+    <div id="t1">
+    <div id="inner1"><img src="images/grid01.jpg"  width="483px" height="289.25px" id="p1"/>
+
+    </div><div class="yc"></div><div class="yc2"></div>
+        <div class="tx1"></div>
+</div>
+    <div id="t2">
+    <div id="inner2"><img src="images/grid02.jpg" width="241.5px" height="241.5px" /></div>
+    </div>
+        <div id="t3">
+    <div id="inner3"><img src="images/grid03.jpg" width="241.5px" height="289.25px" /></div>
+        </div>
+    <div id="inner4"><div><br><p>TRENDS</p>
+
+        <h2>FROM CANVAS TO SCREEN</h2>
+        DIGITAL ART GOES MAINSTREAM.</div></div>
+    <div id="t5">
+    <div id="inner5"><img src="images/grid05.jpg" width="241.5px" height="289.25px" /></div>
+    </div>
+    <div id="t6">
+    <div id="inner6"><img src="images/grid06.jpg" width="241.5px" height="289.25px" /></div>
+    </div>
+                <div id="t7">
+    <div id="inner7"><img src="images/grid07.jpg" width="241.5px" height="289.25px" /></div>
+                </div>
+
+    <div id="inner8"><div><br><p>TRENDS</p>
+
+        <h2>FROM CANVAS TO SCREEN</h2>
+        DIGITAL ART GOES MAINSTREAM.</div></div>
+    <div id="t9">
+    <div id="inner9"><img src="images/grid04.jpg" width="241.5px" height="289.25px" /></div>
+                        </div>
+    <div id="inner10">
+        <div><br><p>TRENDS</p>
+
+        <h2>FROM CANVAS TO SCREEN</h2>
+        DIGITAL ART GOES MAINSTREAM.</div>
+    </div>
+</div>
+<div id="bottom_txt">
+    <center><div id="txt"><br><br><br><br>
+        <p><h1>MAKE. WORK. PLAY.
+
+
+    </h1></p>
+        <p>SINCE 2001</p>
+
+        With an award winning 15 year track record, DOMANI has been recognized as one of the top digital agencies in business today.<br>
+        We help brands around the world express themselves and collaboratively connect with their audiences.<br><a href="#banner">↑</a>
+    </div></center>
+</div>
+<div id="footer"><div id="time">© 2015 Domani Studios LLC.</div>
+    <div id="walk"><p><h3>WALK</h3></p>
+
+        <a href="#">32 Avenue of the Americas<br>
+    19th Floor<br>
+    New York, NY 10013<br>
+            <u>View on Map</u></a></div>
+    <div id="talk"><p><h3>TALK</h3></p>
+
+            New Biz: <a href="#"><u>hello@domanistudios.com</u></a><br>
+    General: <a href="#"><u>hello@domanistudios.com</u></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#banner">☝</a><br>
+    Careers: <a href="#"><u>workwithus@domanistudios.com</u></a><br>
+    Phone: <a href="#">646-744-3501</a> / Fax: <a href="#">212-242-4112</a><br>
+                </div>
+
+                </div>
+</div>
+</body>
+</html>
